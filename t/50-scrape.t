@@ -13,7 +13,7 @@ run();
 done_testing;
 
 sub run {
-    $ENV{TEST_REGRESSION_GEN}++;
+    #$ENV{TEST_REGRESSION_GEN}++;
 
     my @groups = (
         { desc => "base test",                  argv => [qw()], },
